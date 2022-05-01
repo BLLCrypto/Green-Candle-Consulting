@@ -1,0 +1,23 @@
+{
+  "name": "basic-needs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Basic-Needs-Org/front-end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Basic-Needs-Org/front-end/issues"
+  },
+  "homepage": "https://github.com/Basic-Needs-Org/front-end#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

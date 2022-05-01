@@ -1,0 +1,172 @@
+:root {
+  --color-primary: #01d401;
+  --color-primary-contrast: #000000;
+  --color-primary-contrast-rgb: 0,0,0;
+  --color-primary-rgb: 46,229,157;
+  --color-primary-shade: #28ca8a;
+  --color-primary-tint: #43e8a7;
+
+  --color-secondary: #619c78;
+  --color-secondary-rgb: 150,131,255;
+  --color-secondary-contrast: #000000;
+  --color-secondary-contrast-rgb: 0,0,0;
+  --color-secondary-shade: #47a35b;
+  --color-secondary-tint: #a18fff;
+
+  --color-tertiary: #01d401d5;
+  --color-tertiary-rgb: 123,168,255;
+  --color-tertiary-contrast: #000000;
+  --color-tertiary-contrast-rgb: 0,0,0;
+  --color-tertiary-shade: #3eca61;
+  --color-tertiary-tint: #88b1ff;
+
+  --color-quaternary: #575757;
+  --color-quaternary-rgb: 77,240,229;
+  --color-quaternary-contrast: #000000;
+  --color-quaternary-contrast-rgb: 0,0,0;
+  --color-quaternary-shade: #747474;
+  --color-quaternary-tint: #5ff2e8;
+
+  --color-gradient-right: linear-gradient(90deg, var(--color-secondary) 0%, var(--color-tertiary) 55%, var(--color-quaternary) 100%);
+  --color-gradient-down: linear-gradient(180deg, var(--color-secondary) 0%, var(--color-tertiary) 55%, var(--color-quaternary) 100%);
+  --color-gradient-left: linear-gradient(270deg, var(--color-secondary) 0%, var(--color-tertiary) 55%, var(--color-quaternary) 100%);
+  --color-gradient-shade-right: linear-gradient(90deg, var(--color-secondary-shade) 0%, var(--color-tertiary-shade) 55%, var(--color-quaternary-shade) 100%);
+  --color-gradient-shade-down: linear-gradient(180deg, var(--color-secondary-shade) 0%, var(--color-tertiary-shade) 55%, var(--color-quaternary-shade) 100%);
+  --color-gradient-shade-left: linear-gradient(270deg, var(--color-secondary-shade) 0%, var(--color-tertiary-shade) 55%, var(--color-quaternary-shade) 100%);
+  --color-gradient-tint-right: linear-gradient(90deg, var(--color-secondary-tint) 0%, var(--color-tertiary-tint) 55%, var(--color-quaternary-tint) 100%);
+  --color-gradient-tint-down: linear-gradient(180deg, var(--color-secondary-tint) 0%, var(--color-tertiary-tint) 55%, var(--color-quaternary-tint) 100%);
+  --color-gradient-tint-left: linear-gradient(270deg, var(--color-secondary-tint) 0%, var(--color-tertiary-tint) 55%, var(--color-quaternary-tint) 100%);
+
+  --color-gradient-dark: linear-gradient(110deg, var(--color-secondary-shade) 25%, var(--color-tertiary-shade) 75%, var(--color-tertiary) 100%);
+}
+
+.text-primary,
+.hover\:text-primary:hover {
+  color: var(--color-primary) !important;
+}
+.text-primary-shade {
+  color: var(--color-primary-shade);
+}
+.text-primary-tint {
+  color: var(--color-primary-tint);
+}
+.bg-primary {
+  background-color: var(--color-primary);
+  color: var(--color-primary-contrast);
+}
+.bg-primary-shade,
+.hover\:bg-primary-shade:hover {
+  background-color: var(--color-primary-shade);
+  color: var(--color-primary-contrast);
+}
+.bg-primary-tint,
+.hover\:bg-primary-tint:hover {
+  background-color: var(--color-primary-tint);
+  color: var(--color-primary-contrast);
+}
+
+.text-secondary {
+  color: var(--color-secondary);
+}
+.text-secondary-shade {
+  color: var(--color-secondary-shade);
+}
+.text-secondary-tint {
+  color: var(--color-secondary-tint);
+}
+.bg-secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-secondary-contrast);
+}
+.bg-secondary-shade,
+.hover\:bg-secondary-shade:hover {
+  background-color: var(--color-secondary-shade);
+  color: var(--color-secondary-contrast);
+}
+.bg-secondary-tint,
+.hover\:bg-secondary-tint:hover {
+  background-color: var(--color-secondary-tint);
+  color: var(--color-secondary-contrast);
+}
+
+.text-tertiary {
+  color: var(--color-tertiary);
+}
+.text-tertiary-shade {
+  color: var(--color-tertiary-shade);
+}
+.text-tertiary-tint {
+  color: var(--color-tertiary-tint);
+}
+.bg-tertiary {
+  background-color: var(--color-tertiary);
+  color: var(--color-tertiary-contrast);
+}
+.bg-tertiary-shade,
+.hover\:bg-tertiary-shade:hover {
+  background-color: var(--color-tertiary-shade);
+  color: var(--color-tertiary-contrast);
+}
+.bg-tertiary-tint,
+.hover\:bg-tertiary-tint:hover  {
+  background-color: var(--color-tertiary-tint);
+  color: var(--color-tertiary-contrast);
+}
+
+.text-quaternary {
+  color: var(--color-quaternary);
+}
+.text-quaternary-shade {
+  color: var(--color-quaternary-shade);
+}
+.text-quaternary-tint {
+  color: var(--color-quaternary-tint);
+}
+.bg-quaternary {
+  background-color: var(--color-quaternary);
+  color: var(--color-quaternary-contrast);
+}
+.bg-quaternary-shade,
+.hover\:bg-quaternary-shade:hover {
+  background-color: var(--color-quaternary-shade);
+  color: var(--color-quaternary-contrast);
+}
+.bg-quaternary-tint,
+.hover\:bg-quaternary-tint:hover {
+  background-color: var(--color-quaternary-tint);
+  color: var(--color-quaternary-contrast);
+}
+
+.bg-gradient,
+.bg-gradient.bg-gradient--right {
+  background: var(--color-secondary);
+  background: var(--color-gradient-right);
+}
+.bg-gradient.bg-gradient--left {
+  background: var(--color-secondary);
+  background: var(--color-gradient-left);
+}
+.bg-gradient.bg-gradient--down {
+  background: var(--color-secondary);
+  background: var(--color-gradient-down);
+}
+.hover\:bg-gradient-shade:hover,
+.hover\:bg-gradient-shade--right:hover {
+  background: var(--color-gradient-shade-right);
+}
+.hover\:bg-gradient-shade--left:hover {
+  background: var(--color-gradient-shade-left);
+}
+.hover\:bg-gradient-shade--down:hover {
+  background: var(--color-gradient-shade-down);
+}
+.hover\:bg-gradient-tint:hover,
+.hover\:bg-gradient-tint--right:hover {
+  background: var(--color-gradient-tint-right);
+}
+.hover\:bg-gradient-tint--left:hover {
+  background: var(--color-gradient-tint-left);
+}
+.hover\:bg-gradient-tint--down:hover {
+  background: var(--color-gradient-tint-down);
+}
