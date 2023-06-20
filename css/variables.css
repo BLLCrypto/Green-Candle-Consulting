@@ -1,26 +1,26 @@
 :root {
-  --color-primary: #01d401;
-  --color-primary-contrast: #000000;
+  --color-primary: #1a991a;
+  --color-primary-contrast: #ffffff;
   --color-primary-contrast-rgb: 0,0,0;
   --color-primary-rgb: 46,229,157;
-  --color-primary-shade: #28ca8a;
-  --color-primary-tint: #43e8a7;
+  --color-primary-shade: #1a991a;
+  --color-primary-tint: #1a991a;
 
-  --color-secondary: #619c78;
+  --color-secondary: #1a991a;
   --color-secondary-rgb: 150,131,255;
   --color-secondary-contrast: #000000;
   --color-secondary-contrast-rgb: 0,0,0;
-  --color-secondary-shade: #47a35b;
-  --color-secondary-tint: #a18fff;
+  --color-secondary-shade: #1a991a;
+  --color-secondary-tint: #1a991a;
 
-  --color-tertiary: #01d401d5;
+  --color-tertiary: #1a991a;
   --color-tertiary-rgb: 123,168,255;
   --color-tertiary-contrast: #000000;
   --color-tertiary-contrast-rgb: 0,0,0;
-  --color-tertiary-shade: #3eca61;
-  --color-tertiary-tint: #88b1ff;
+  --color-tertiary-shade: #1a991a;
+  --color-tertiary-tint: #1a991a;
 
-  --color-quaternary: #575757;
+  --color-quaternary: #ffffff;
   --color-quaternary-rgb: 77,240,229;
   --color-quaternary-contrast: #000000;
   --color-quaternary-contrast-rgb: 0,0,0;
